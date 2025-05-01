@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ - PearlFection Accessories</title>
+
+  <link rel="stylesheet" href="faqstyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css" /> 
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet" /> 
+  <link rel="stylesheet" href="DesignforNavBar.css" />
+  <link rel="stylesheet" href="footerdesign.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script> 
+  <script src="javascript.js" defer></script>
+  <link href="aboutcss.css" rel="stylesheet">
+
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg custom-navbar"> 
+      <div class="navbar-container"> 
+        <a class="navbar-brand d-flex align-items-center fw-bold" href="#"> 
+          <img src="images/Logo.jpg" alt="Pearlfection Logo" width="30" height="30" class="me-2"> 
+        </a> 
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+          <span class="navbar-toggler-icon"></span> 
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarNav"> 
+          <ul class="navbar-nav-center"> 
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
+            <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li> 
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> 
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li> 
+          </ul> 
+        </div> 
+        <div class="search-icon-wrapper d-flex align-items-center gap-3"> 
+          <a href="#" class="search-icon-link">
+            <img class="search-icon" src="https://img.icons8.com/ios-filled/24/000000/search--v1.png" alt="Search" />
+          </a> 
+          <div class="cart-icon-wrapper" id="cartIconWrapper">
+            <img class="cart-icon" src="images/cart.png" alt="Cart" style="width:24px; height:24px; object-fit:contain;"/>
+            <span class="cart-count" id="cartCount">0</span>
+            <div class="cart-dropdown" id="cartDropdown">
+              <div id="cartItems"></div>
+              <div id="emptyCart" class="empty-cart">
+                <p>Your cart is empty</p>
+                <button class="continue-shopping">Continue Shopping</button>
+              </div>
+              <div id="cartFooter" style="display: none;">
+                <div class="cart-total">
+                  <span>Total</span>
+                  <span id="cartTotal">₱0.00</span>
+                </div>
+                <div class="cart-actions">
+                  <button class="view-cart-btn">View Cart</button>
+                  <button class="checkout-btn">Checkout</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="profile-icon-link-icon-wrapper d-flex gap-3"> 
+            <img class="profile-icon" src="images/Profile.png" alt="Profile" style="width: 24px; height: 24px;" /> 
+          </a> 
+        </div>
+      </div> 
+    </nav> 
+  </header>
+
+  <hr class="divider" />
+
+  <main>
+    <div class="faq-container">
+      <h1 class="faq-title">Frequently Asked Questions</h1>
+
+      <div class="faq-section">
+        <h2>What is PearlFection Accessories?</h2>
+        <p>PearlFection is your go-to destination for elegant, handcrafted accessories inspired by timeless pearl beauty.</p>
+      </div>
+
+      <div class="faq-section">
+        <h2>How can I contact customer service?</h2>
+        <p>You can reach us at <strong>PearlFection@gmail.com</strong> or call us at <strong>09064549345</strong>.</p>
+      </div>
+
+      <div class="faq-section">
+        <h2>Do you offer custom jewelry?</h2>
+        <p>We are working on custom orders! Please email us your request, and we’ll do our best to accommodate you.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer"> 
+    <div class="footer-content"> 
+      <p>&copy; 2025 Pearlfection. All rights reserved.</p> 
+      <nav class="footer-nav"> 
+        <ul> 
+          <li><a href="privacypolicy.html">Privacy Policy</a></li> 
+          <li><a href="termsofuse.html">Terms of Use</a></li> 
+          <li><a href="faq.html">FAQ</a></li> 
+          <li>Contact 09064549345</li>
+        </ul> 
+        <ul>
+          <li>PearlFection@gmail.com</li>
+        </ul>
+      </nav> 
+    </div> 
+  </footer>
+</body></html>

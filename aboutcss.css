@@ -1,0 +1,337 @@
+.logo-edit {
+    width: 400px;
+  }
+  
+  .about-page-hero {
+    height: 420px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/pearl-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .about-page-hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-page-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  .about-page-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .about-page-story {
+    margin-bottom: 60px;
+  }
+  
+  .about-page-story h2, .about-page-values h2, .about-page-team h2, .about-page-project h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  .about-page-story h2:after, .about-page-values h2:after, .about-page-team h2:after, .about-page-project h2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background-color: #d4af37;
+  }
+  
+  .about-page-story p, .about-page-values p, .about-page-project p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .about-page-image {
+    margin: 30px 0;
+  }
+  
+  .about-page-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-page-values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+  }
+  
+  .about-page-value-card {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-page-value-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .about-page-value-card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .about-page-value-card p {
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+  }
+  
+  .about-page-team {
+    margin-bottom: 60px;
+  }
+  
+  .about-page-team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+  }
+  
+  .about-page-team-member {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .about-page-team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+  .about-page-team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #d4af37;
+  }
+  
+  .about-page-team-member h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  
+  .about-page-team-member p {
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  
+  .about-page-student-id {
+    background: #d4af37;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  .about-page-project {
+    margin-bottom: 60px;
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .about-page-project-details {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .about-page-project-details h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .about-page-project-details ul {
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    margin-left: 20px;
+  }
+  
+  .about-page-project-details li {
+    margin-bottom: 10px;
+  }
+  
+  .about-page-cta {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .about-page-cta-content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .about-page-cta-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-page-cta-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .about-page-shop-btn {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-page-shop-btn:hover {
+    background-color: #c29d2b;
+  }
+  
+  .team-section {
+    margin-bottom: 60px;
+    padding: 0 15px;
+  }
+  
+  .team-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  .team-section h2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background-color: #d4af37;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+  }
+  
+  .team-member {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #d4af37;
+  }
+  
+  .team-member h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .about-page-hero {
+      height: 300px;
+    }
+    
+    .about-page-hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .about-page-story h2, .about-page-values h2, .team-section h2, .about-page-project h2 {
+      font-size: 2rem;
+    }
+    
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    
+    .team-member img {
+      width: 120px;
+      height: 120px;
+    }
+    
+    .about-page-values-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .logo-edit {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .team-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .team-member {
+      max-width: 280px;
+      margin: 0 auto;
+    }
+  }

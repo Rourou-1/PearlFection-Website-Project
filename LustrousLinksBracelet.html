@@ -1,0 +1,191 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+      
+      <link rel="stylesheet" href="footerdesign.css">
+
+      <script src="footerlogic.js"></script>
+
+      <script src="productshowcasescript.js"></script>
+      
+      <link rel="stylesheet" href="style.css" /> 
+
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" /> 
+
+      <link rel="stylesheet" href="DesignforNavBar.css" /> 
+
+      <link rel="stylesheet" href="styleshop.css" /> 
+
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script> 
+      <script src="javascript.js" defer></script>
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>PearlFection Accessories</title>
+    
+      <link rel="stylesheet" href="productshowcase.css" defer>
+    
+  </head>
+  <body>
+      <header class="site-header">
+          <nav class="navbar navbar-expand-lg custom-navbar"> 
+              <div class="navbar-container"> 
+              
+                <a class="navbar-brand d-flex align-items-center fw-bold" href="#"> 
+                  <img src="images/Logo.jpg" alt="Pearlfection Logo" width="30" height="30" class="me-2"> 
+                </a> 
+                
+              
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+                  <span class="navbar-toggler-icon"></span> 
+                </button> 
+                
+              
+                <div class="collapse navbar-collapse" id="navbarNav"> 
+                  <ul class="navbar-nav-center"> 
+                    <li class="nav-item"> 
+                      <a class="nav-link" href="index.html">Home</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                      <a class="nav-link active" href="shop.html">Shop</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                      <a class="nav-link" href="about.html">About</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                      <a class="nav-link" href="#">Contact</a> 
+                    </li> 
+                  </ul> 
+                </div> 
+                
+                <div class="search-icon-wrapper d-flex align-items-center gap-3"> 
+                  <a href="#" class="search-icon-link"> 
+                    <img class="search-icon" src="https://img.icons8.com/ios-filled/24/000000/search--v1.png" alt="Search" /> 
+                  </a> 
+
+                  <div class="cart-icon-wrapper" id="cartIconWrapper">
+              <img class="cart-icon" src="images/cart.png" alt="Cart" style="width:24px; height:24px; object-fit:contain;"
+              />
+              <span class="cart-count" id="cartCount">0</span>
+              
+            
+              <div class="cart-dropdown" id="cartDropdown">
+                <div id="cartItems">
+                
+                </div>
+                
+                <div id="emptyCart" class="empty-cart">
+                  <p>Your cart is empty</p>
+                  <button class="continue-shopping">Continue Shopping</button>
+                </div>
+                
+                <div id="cartFooter" style="display: none;">
+                  <div class="cart-total">
+                    <span>Total</span>
+                    <span id="cartTotal">₱0.00</span>
+                  </div>
+                  <div class="cart-actions">
+                    <button class="view-cart-btn">View Cart</button>
+                    <button class="checkout-btn">Checkout</button>
+                  </div>
+                  </div>
+                  </div>
+          
+              </div>
+          
+                  <a href="#" class="profile-icon-link-icon-wrapper d-flex gap-3"> 
+                    <img class="profile-icon" src="images/Profile.png" title="user icons" alt="Profile" style="width: 24px; height: 24px;" /> 
+                  </a> 
+
+                  </div>
+                </div> 
+              </div> 
+          </nav> 
+      </header>
+      
+      
+      
+      <section class="item-display">
+          <div class="site-wrapper">
+              <div class="item-layout">
+                  <div class="item-gallery">
+                      <img src="images/Lustrous Links.jpg" alt="Lustrous Links bracelet" class="primary-image">
+                    
+                    
+                  </div>
+          
+                  <div class="item-details">
+                      <h1 class="item-title">Lustrous Links Bracelet</h1>
+                  
+                      <div class="star-rating">
+                          <div class="star-icons">★★★★☆</div>
+                          <span class="review-total">4.5</span>
+                      </div>
+                
+                      <div class="cost-block">
+                          <span class="current-price">₱100.00</span>
+                        
+                          <p class="delivery-info">Free shipping & luxury gift packaging</p>
+                      </div>
+                      
+                      <div class="item-intro">
+                          <p>Sleek, radiant, and effortlessly modern—the Lustrous Links Bracelet brings a contemporary twist to classic pearl elegance. Featuring perfectly matched South Sea cultured pearls interlinked with polished 18K gold accents, this bracelet blends timeless charm with a refined edge. Each lustrous pearl is carefully selected and strategically spaced to highlight its brilliance, creating a graceful rhythm that catches the light with every movement.</p>
+                      </div>
+                      
+                      <div class="item-specs">
+                          <h3>Jewelry Details</h3>
+                          <ul>
+                            <li>Genuine South Sea cultured pearls (8–10mm)</li>
+                            <li>AAA grade: high luster and near-flawless surface</li>
+                            <li>Interlinked with solid 18K gold connectors</li>
+                            <li>Secure 18K gold lobster clasp for all-day wear</li>
+                            <li>7.5-inch length, fits most wrist sizes</li>
+                            <li>Includes certificate of authenticity</li>
+                          </ul>
+                      </div>
+                      
+                      <div class="amount-selector">
+                          <button class="amount-button">-</button>
+                          <input type="number" value="1" min="1" max="5" class="amount-field">
+                          <button class="amount-button">+</button>
+                      </div>
+                      
+                      <div class="purchase-options">
+                          <button class="purchase-button">
+                            Buy Now
+                          </button>
+                          <button data-id="bracelet" data-name="Lustrous Links Bracelet" data-price="100.00" data-img="images/Lustrous Links.jpg" class="item-btn">
+                              </svg>
+                              Add to cart
+                          </button>
+                      </div>
+                      
+                  
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <footer class="footer"> 
+        <div class="footer-content"> 
+          <p>&copy; 2025 Pearlfection. All rights reserved.</p> 
+          <nav class="footer-nav"> 
+            <ul> 
+              <li><a href="#">Privacy Policy</a></li> 
+              <li><a href="#">Terms of Use</a></li> 
+              <li><a href="#">FAQ</a></li> 
+              <li>Contact 09064549345</li>
+            </ul> 
+            <ul>
+              <li>PearlFection@gmail.com</li>
+
+            </ul>
+          </nav> 
+        </div> 
+    </footer> 
+
+    
+  </body>
+  </html>

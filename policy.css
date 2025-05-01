@@ -1,0 +1,36 @@
+.privacy-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .privacy-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #A78F7C;
+    margin-bottom: 30px;
+  }
+
+  .privacy-section {
+    margin-bottom: 25px;
+  }
+
+  .privacy-section h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .privacy-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  .divider {
+    margin-top: 0;
+  }

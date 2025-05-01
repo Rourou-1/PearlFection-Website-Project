@@ -1,0 +1,249 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+      
+    
+      <link rel="stylesheet" href="style.css" /> 
+
+     
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" /> 
+
+      <link rel="stylesheet" href="DesignforNavBar.css" /> 
+
+      <link rel="stylesheet" href="styleshop.css" /> 
+  <script src="shopfilter.js"></script>
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script> 
+      <script src="javascript.js" defer></script>
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>PearlFection Accessories</title>
+    
+  </head>
+  <body>
+      <header>
+          <nav class="navbar navbar-expand-lg custom-navbar"> 
+              <div class="navbar-container"> 
+               
+                <a class="navbar-brand d-flex align-items-center fw-bold" href="#"> 
+                  <img src="images/Logo.jpg" alt="Pearlfection Logo" width="30" height="30" class="me-2"> 
+                </a> 
+              
+               
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+                  <span class="navbar-toggler-icon"></span> 
+                </button> 
+                
+                
+                <div class="collapse navbar-collapse" id="navbarNav"> 
+                  <ul class="navbar-nav-center"> 
+                    <li class="nav-item"> 
+                      <a class="nav-link" href="index.html">Home</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                      <a class="nav-link active" href="">Shop</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                      <a class="nav-link" href="about.html">About</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                      <a class="nav-link" href="#">Contact</a> 
+                    </li> 
+                  </ul> 
+                </div> 
+                
+                <div class="search-icon-wrapper d-flex align-items-center gap-3"> 
+                  <a href="#" class="search-icon-link"> 
+                    <img class="search-icon" src="https://img.icons8.com/ios-filled/24/000000/search--v1.png" alt="Search" /> 
+                  </a> 
+
+                  <div class="cart-icon-wrapper" id="cartIconWrapper">
+              <img class="cart-icon" src="images/cart.png" alt="Cart" style="width:24px; height:24px; object-fit:contain;"
+              />
+              <span class="cart-count" id="cartCount">0</span>
+              
+            
+              <div class="cart-dropdown" id="cartDropdown">
+                <div id="cartItems">
+               
+                </div>
+                
+                <div id="emptyCart" class="empty-cart">
+                  <p>Your cart is empty</p>
+                  <button class="continue-shopping">Continue Shopping</button>
+                </div>
+                
+                <div id="cartFooter" style="display: none;">
+                  <div class="cart-total">
+                    <span>Total</span>
+                    <span id="cartTotal">₱0.00</span>
+                  </div>
+                  <div class="cart-actions">
+                    <button class="view-cart-btn">View Cart</button>
+                    <button class="checkout-btn">Checkout</button>
+                  </div>
+                  </div>
+                  </div>
+          
+              </div>
+          
+                  <a href="#" class="profile-icon-link-icon-wrapper d-flex gap-3"> 
+                    <img class="profile-icon" src="images/Profile.png" title="user icons" alt="Profile" style="width: 24px; height: 24px;" /> 
+                  </a> 
+
+                  </div>
+                </div> 
+              </div> 
+          </nav> 
+      </header>
+
+      <main>
+          <section class="page-title">
+              <div class="container2">
+                  <h1>Discover Our Collection</h1>
+                  <p>Explore our handcrafted pearl jewelry pieces, each one unique and exquisitely designed to bring timeless elegance to your style.</p>
+              </div>
+          </section>
+
+          <section class="container2">
+              <div class="filters">
+                  <button class="category-btn active">All Collections</button>
+                  <button class="category-btn">Necklaces</button>
+                  <button class="category-btn">Bracelets</button>
+                  <button class="category-btn">Rings</button>
+              </div>
+
+              <div class="products">
+                  <!-- Product 1 -->
+                
+                  <div class="product-card">
+                      <div class="product-img">
+                         <a href="BaroquePearlNecklace.html"> <img src="images/Baroque Pearl Necklace.jpg" alt="Baroque Pearl Necklace"></a>
+                          <div class="product-overlay">
+                              <h3 class="product-name">Baroque Pearl Necklace</h3>
+                              <p class="product-description">A bold and striking necklace showcasing the organic beauty of baroque pearls, perfect for adding a touch of elegance to any ensemble.</p>
+                              <div class="product-rating">★★★★★</div>
+                              <div class="product-footer">
+                                  <p class="product-price">₱115.00</p>
+                                  <button data-id="necklace" data-name="Baroque Pearl Necklace" data-price="115.00" data-img="images/Baroque Pearl Necklace.jpg" class="item-btn">Add to Cart</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <!-- Product 2 -->
+                  <div class="product-card">
+                      <div class="product-img">
+                        <a href="Sinous Pearl Adornment Necklace.html">   <img src="images/Sinuous Pearl Adornment Necklace.jpg" alt="Sinuous Pearl Adornment Necklace"> </a>
+                          <div class="product-overlay">
+                              <h3 class="product-name">Sinuous Pearl Adornment Necklace</h3>
+                              <p class="product-description">A fluid, graceful design featuring soft curves of gold intertwined with South Sea pearls, creating an elegant statement piece.
+                              </p>
+                              <div class="product-rating">★★★★★</div>
+                              <div class="product-footer">
+                                  <p class="product-price">₱100.00</p>
+                                  <button data-id="necklace-2" data-name="Sinuous Pearl Adornment Necklace" data-price="100.00" data-img="images/Sinuous Pearl Adornment Necklace.jpg" class="item-btn">Add to Cart</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Product 3 -->
+                  <div class="product-card">
+                      <div class="product-img">
+                        <a href="GoldenHaloPearlRing.html">  <img src="images/Golden Halo Pearl Ring.jpg" alt="Golden Halo Pearl Ring"></a>
+                          <div class="product-overlay">
+                              <h3 class="product-name">Golden Halo Pearl Ring</h3>
+                              <p class="product-description">A luxurious 18K gold ring featuring a captivating South Sea pearl encircled by a radiant halo of gold, creating a timeless beauty.</p>
+                              <div class="product-rating">★★★★☆</div>
+                              <div class="product-footer">
+                                  <p class="product-price">₱165.00</p>
+                                  <button data-id="ring" data-name="Golden Halo Pearl Ring" data-price="165.00" data-img="images/Golden Halo Pearl Ring.jpg" class="item-btn">Add to Cart</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Product 4 -->
+                  <div class="product-card">
+                      <div class="product-img">
+                        <a href="GildedPearlStrandBracelet.html"> <img src="images/Gilded Pearl Strand Bracelet.jpg" alt="Gilded Pearl Strand Bracelet"> </a>
+                          <div class="product-overlay">
+                              <h3 class="product-name">Gilded Pearl Strand Bracelet</h3>
+                              <p class="product-description">A refined strand of radiant pearls accented with a gleaming 18K gold clasp, this bracelet offers classic elegance with a luxurious touch.</p>
+                              <div class="product-rating">★★★★☆</div>
+                              <div class="product-footer">
+                                  <p class="product-price">₱150.00</p>
+                                  <button data-id="bracelet" data-name="Gilded Pearl Strand Bracelet" data-price="150.00" data-img="images/Gilded Pearl Strand Bracelet.jpg" class="item-btn">Add to Cart</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Product 5 -->
+                  <div class="product-card">
+                      <div class="product-img">
+                        <a href="PinnaclePearlRing.html"> <img src="images/Pinnacle Pearl Ring.jpg" alt="Pinnacle Pearl Ring"></a>
+                          <div class="product-overlay">
+                              <h3 class="product-name">Pinnacle Pearl Ring</h3>
+                              <p class="product-description">A sophisticated ring featuring a large South Sea pearl, set in a sleek 18K gold band that highlights its beauty and elegance.</p>
+                              <div class="product-rating">★★★★☆</div>
+                              <div class="product-footer">
+                                  <p class="product-price">₱105.00</p>
+                                  <button data-id="ring-2" data-name="Pinnacle Pearl Ring" data-price="105.00" data-img="images/Pinnacle Pearl Ring.jpg" class="item-btn">Add to Cart</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+  <!-- Product 6 -->
+  <div class="product-card">
+      <div class="product-img">
+        <a href="WovenPearlTrellisBracelet.html"> <img src="images/Woven Pearl Trellis Bracelet.jpg" alt="Woven Pearl Trellis Bracelet"> </a>
+          <div class="product-overlay">
+              <h3 class="product-name">Woven Pearl Trellis Bracelet</h3>
+              <p class="product-description">A delicate bracelet with intricately woven 18K gold links and pearls, combining vintage charm with modern sophistication.</p>
+              <div class="product-rating">★★★★☆</div>
+              <div class="product-footer">
+                  <p class="product-price">₱120.00</p>
+                  <button data-id="bracelet-2" data-name="Woven Pearl Trellis Bracelet" data-price="120.00" data-img="images/Woven Pearl Trellis Bracelet.jpg" class="item-btn">Add to Cart</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+              </div>
+
+              <div class="pagination">
+                <a href="shop.html" class="page-link">←</a>
+                  <a href="shop.html" class="page-link">1</a>
+                  <a href="#" class="page-link active">2</a>
+                  <a href="shop3.html" class="page-link">3</a>
+                  <a href="shop3.html" class="page-link">→</a>
+              </div>
+          </section>
+      </main>
+
+      <footer class="footer"> 
+        <div class="footer-content"> 
+          <p>&copy; 2025 Pearlfection. All rights reserved.</p> 
+          <nav class="footer-nav"> 
+            <ul> 
+              <li><a href="#">Privacy Policy</a></li> 
+              <li><a href="#">Terms of Use</a></li> 
+              <li><a href="#">FAQ</a></li> 
+              <li>Contact 09064549345</li>
+            </ul> 
+            <ul>
+              <li>PearlFection@gmail.com</li>
+
+            </ul>
+          </nav> 
+        </div> 
+    </footer> 
+  </body>
+  </html>

@@ -1,0 +1,28 @@
+.contact-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+  .contact-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #A78F7C;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .form-control:focus {
+    border-color: #A78F7C;
+    box-shadow: 0 0 0 0.2rem rgba(167, 143, 124, 0.25);
+  }
+  .submit-btn {
+    background-color: #A78F7C;
+    color: #fff;
+    border: none;
+  }
+  .submit-btn:hover {
+    background-color: #8f7666;
+  }
